@@ -1,0 +1,58 @@
+# =====================
+# Node
+# =====================
+node_modules/
+dist/
+.env
+.env.*.local
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =====================
+# TypeScript
+# =====================
+*.tsbuildinfo
+
+# =====================
+# Prisma + MongoDB
+# =====================
+prisma/migrations/
+prisma/dev.db
+prisma/dev.db-journal
+# Nếu có file seed hay snapshot Mongo tạm
+*.mongo
+*.bson
+dump/
+data/
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+*.swp
+*.swo
+*.log
+.idea/
+.vscode/
+*.code-workspace
+
+# =====================
+# Build Tools
+# =====================
+coverage/
+build/
+.cache/
+out/
+.next/
+turbo/
+
+# =====================
+# Misc
+# =====================
+*.bak
+*.old
+*.tmp
+*.orig
