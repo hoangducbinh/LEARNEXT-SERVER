@@ -56,3 +56,7 @@ turbo/
 *.old
 *.tmp
 *.orig
+
+/src/generated/prisma
+
+/src/generated/prisma
